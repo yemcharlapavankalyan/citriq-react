@@ -1,0 +1,145 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Y Pavan Kalyan",
+      "email": "pavan.kalyan@student.edu",
+      "role": "student",
+      "avatar": "pavan.jpg",
+      "projects": [1, 2],
+      "skills": ["React", "UI/UX Design", "Python"]
+    },
+    {
+      "id": 2,
+      "name": "M Achyuth Kumar",
+      "email": "achyuth.kumar@student.edu",
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Achyuth",
+      "projects": [1, 3],
+      "skills": ["JavaScript", "Mobile Development", "Design"]
+    },
+    {
+      "id": 3,
+      "name": "E Rishikesh Reddy",
+      "email": "rishikesh.reddy@student.edu",
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rishikesh",
+      "projects": [1, 3],
+      "skills": ["React", "Node.js", "Database Design"]
+    },
+    {
+      "id": 4,
+      "name": "M Srishanth",
+      "email": "srishanth@student.edu",
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Srishanth",
+      "projects": [1, 3],
+      "skills": ["Full Stack Development", "API Design", "Testing"]
+    },
+    {
+      "id": 5,
+      "name": "M Srikanth",
+      "email": "srikanth@student.edu",
+      "role": "student",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Srikanth",
+      "projects": [2, 3],
+      "skills": ["Machine Learning", "Python", "Data Analysis"]
+    },
+    {
+      "id": 7,
+      "name": "Dr. Vara Prasad",
+      "email": "vara.prasad@teacher.edu",
+      "role": "teacher",
+      "avatar": "https://api.dicebear.com/7.x/personas/svg?seed=DrVaraPrasadTeacher&backgroundColor=b6e3f4",
+      "projects": [1, 2, 3],
+      "department": "Computer Science"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-commerce Website Design",
+      "description": "Design and prototype a modern e-commerce website with user authentication and payment integration",
+      "dueDate": "2024-02-15",
+      "status": "active",
+      "assignedStudents": [1, 2, 3, 4],
+      "reviews": [
+        {
+          "id": 1,
+          "reviewerId": 2,
+          "revieweeId": 1,
+          "rating": 4,
+          "comment": "Great design concept, but needs improvement in mobile responsiveness",
+          "submittedAt": "2024-02-10T10:30:00Z"
+        },
+        {
+          "id": 2,
+          "reviewerId": 3,
+          "revieweeId": 1,
+          "rating": 5,
+          "comment": "Excellent work! The UI/UX is very intuitive and user-friendly",
+          "submittedAt": "2024-02-11T14:20:00Z"
+        }
+      ],
+      "submissions": [
+        {
+          "id": 1,
+          "studentId": 1,
+          "content": "Wireframes and mockups for e-commerce site",
+          "fileType": "pdf",
+          "status": "submitted",
+          "submittedAt": "2024-02-08T16:45:00Z"
+        },
+        {
+          "id": 2,
+          "studentId": 2,
+          "content": "Interactive prototype with user flow",
+          "fileType": "text",
+          "status": "submitted",
+          "submittedAt": "2024-02-09T11:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Machine Learning Model for Weather Prediction",
+      "description": "Develop a machine learning model to predict weather patterns using historical data",
+      "dueDate": "2024-02-20",
+      "status": "active",
+      "assignedStudents": [1, 5],
+      "reviews": [
+        {
+          "id": 3,
+          "reviewerId": 5,
+          "revieweeId": 1,
+          "rating": 3,
+          "comment": "Good approach but needs more data preprocessing",
+          "submittedAt": "2024-02-12T09:15:00Z"
+        }
+      ],
+      "submissions": [
+        {
+          "id": 3,
+          "studentId": 1,
+          "content": "Initial model implementation with basic features",
+          "fileType": "text",
+          "status": "submitted",
+          "submittedAt": "2024-02-10T13:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mobile App for Task Management",
+      "description": "Create a cross-platform mobile application for personal task management",
+      "dueDate": "2024-02-25",
+      "status": "upcoming",
+      "assignedStudents": [2, 3, 4, 5],
+      "reviews": [],
+      "submissions": []
+    }
+  ],
+  "reviews": [],
+  "submissions": []
+}
+

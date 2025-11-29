@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Website Design",
+    "description": "Design and prototype a modern e-commerce website with user authentication and payment integration",
+    "dueDate": "2024-02-15",
+    "status": "active",
+    "assignedStudents": [1, 2, 3, 4],
+    "reviews": [
+      {
+        "reviewerId": 2,
+        "revieweeId": 1,
+        "rating": 4,
+        "comment": "Great design concept, but needs improvement in mobile responsiveness",
+        "submittedAt": "2024-02-10T10:30:00Z"
+      },
+      {
+        "reviewerId": 3,
+        "revieweeId": 1,
+        "rating": 5,
+        "comment": "Excellent work! The UI/UX is very intuitive and user-friendly",
+        "submittedAt": "2024-02-11T14:20:00Z"
+      }
+    ],
+    "submissions": [
+      {
+        "studentId": 1,
+        "content": "Wireframes and mockups for e-commerce site",
+        "fileType": "pdf",
+        "submittedAt": "2024-02-08T16:45:00Z"
+      },
+      {
+        "studentId": 2,
+        "content": "Interactive prototype with user flow",
+        "fileType": "text",
+        "submittedAt": "2024-02-09T11:20:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Model for Weather Prediction",
+    "description": "Develop a machine learning model to predict weather patterns using historical data",
+    "dueDate": "2024-02-20",
+    "status": "active",
+    "assignedStudents": [1, 5],
+    "reviews": [
+      {
+        "reviewerId": 5,
+        "revieweeId": 1,
+        "rating": 3,
+        "comment": "Good approach but needs more data preprocessing",
+        "submittedAt": "2024-02-12T09:15:00Z"
+      }
+    ],
+    "submissions": [
+      {
+        "studentId": 1,
+        "content": "Initial model implementation with basic features",
+        "fileType": "text",
+        "submittedAt": "2024-02-10T13:30:00Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Mobile App for Task Management",
+    "description": "Create a cross-platform mobile application for personal task management",
+    "dueDate": "2024-02-25",
+    "status": "upcoming",
+    "assignedStudents": [2, 3, 4, 5],
+    "reviews": [],
+    "submissions": []
+  }
+]

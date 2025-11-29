@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Y Pavan Kalyan",
+    "email": "pavan.kalyan@student.edu",
+    "password": "password123",
+    "role": "student",
+    "avatar": "pavan.jpg",
+    "projects": [
+      1,
+      2
+    ],
+    "skills": [
+      "React",
+      "UI/UX Design",
+      "Python"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "M Achyuth Kumar",
+    "email": "achyuth.kumar@student.edu",
+    "password": "password123",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Achyuth",
+    "projects": [
+      1,
+      3
+    ],
+    "skills": [
+      "JavaScript",
+      "Mobile Development",
+      "Design"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "E Rishikesh Reddy",
+    "email": "rishikesh.reddy@student.edu",
+    "password": "password123",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rishikesh",
+    "projects": [
+      1,
+      3
+    ],
+    "skills": [
+      "React",
+      "Node.js",
+      "Database Design"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "M Srishanth",
+    "email": "srishanth@student.edu",
+    "password": "password123",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Srishanth",
+    "projects": [
+      1,
+      3
+    ],
+    "skills": [
+      "Full Stack Development",
+      "API Design",
+      "Testing"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "M Srikanth",
+    "email": "srikanth@student.edu",
+    "password": "password123",
+    "role": "student",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Srikanth",
+    "projects": [
+      2,
+      3
+    ],
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Dr. Vara Prasad",
+    "email": "vara.prasad@teacher.edu",
+    "password": "password123",
+    "role": "teacher",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=VaraPrasad",
+    "projects": [
+      1,
+      2,
+      3
+    ],
+    "department": "Computer Science"
+  }
+]

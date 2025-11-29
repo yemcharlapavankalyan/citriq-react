@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS notifications;
+DROP TABLE IF EXISTS peer_reviews;
+DROP TABLE IF EXISTS submissions;
+DROP TABLE IF EXISTS review_tasks;
+DROP TABLE IF EXISTS users;
