@@ -8,7 +8,16 @@ import googleAuthRoutes from "./routes/googleAuthRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 
 const app = express();
-app.use(cors());
+app.use(
+    cors({
+        origin: [
+            "http://localhost:5173",
+            "http://localhost:5174",
+            "https://citriq-react.vercel.app"
+        ],
+        credentials: true
+    })
+);
 app.use(express.json());
 
 
